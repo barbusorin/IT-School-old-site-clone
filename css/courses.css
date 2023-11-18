@@ -101,3 +101,18 @@
     padding: var(--spacing-tiny);
     margin-bottom: var(--spacing-medium);
 }
+
+@media (max-width: 576px) {
+    .courses .courses-container {
+        flex-direction: column;
+        
+    }
+
+    .courses .course-wrapper {
+        width: 100%;
+    }
+
+    .welcome h1 {
+        font-size: 2rem;
+    }
+  }
