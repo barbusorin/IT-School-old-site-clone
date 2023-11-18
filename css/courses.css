@@ -102,10 +102,23 @@
     margin-bottom: var(--spacing-medium);
 }
 
+@media (max-width: 992px) {
+    .courses .courses-container {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
+    .welcome h1 {
+        font-size: 2rem;
+    }
+  }
+
 @media (max-width: 576px) {
     .courses .courses-container {
         flex-direction: column;
-        
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .courses .course-wrapper {
